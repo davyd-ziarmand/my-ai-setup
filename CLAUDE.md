@@ -1,11 +1,18 @@
 # Global Rules
 
-Always use this code style rules: @D:\AI\Rules\code-style.md
+AI_SETUP_PATH=D:/AI
 
-# If project use WordPress
-
-Then load this file: @D:\AI\Rules\wp-architecture.md
+Always use this code style rules: @AI_SETUP_PATH/Rules/code-style.md
 
 # If project use JavaScript/TypeScript
 
-Then load this file: @D:\AI\Rules\fdd-architecture.md
+Then load this file: @AI_SETUP_PATH/Rules/fdd-architecture.md
+
+# If project use WordPress
+
+Then load this files:
+
+- @AI_SETUP_PATH/Rules/wordpress/wp-architecture.md
+- @AI_SETUP_PATH/Rules/wordpress/basic-utilities.md
+- @AI_SETUP_PATH/Rules/wordpress/tooling-and-styling.md
+- @AI_SETUP_PATH/Rules/wordpress/website-content.md
